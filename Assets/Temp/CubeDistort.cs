@@ -35,9 +35,9 @@ public class CubeDistort : MonoBehaviour
     void Start()
     {
         meshRenderer = this.transform.GetComponent<MeshFilter>();
-        cubeMesh = meshRenderer.sharedMesh;
         crumpler = this.transform.GetComponent<MegaCrumple>();
         modifier = this.transform.GetComponent<MegaModifyObject>();
+        cubeMesh = meshRenderer.sharedMesh;
 
         baker = new MeshToSDFBaker(sizeBox, center, maxResolution, cubeMesh, signPassCount, threshold);
         baker.BakeSDF();
@@ -47,6 +47,8 @@ public class CubeDistort : MonoBehaviour
     public void UpdateCrumple()
     {
         crumpler.scale = slider.value;
+
+        StartCoroutine(updateSDF());
         
 
         //Update SDF HERE
@@ -61,6 +63,7 @@ public class CubeDistort : MonoBehaviour
         //cubeMesh = modifier.mesh;
         
 
+        baker = new MeshToSDFBaker(sizeBox, center, maxResolution, cubeMesh, signPassCount, threshold);
         baker.BakeSDF();
         vfxGraph.SetTexture("SDF", baker.SdfTexture);
 

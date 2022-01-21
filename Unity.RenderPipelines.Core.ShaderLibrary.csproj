@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9e25f2a9-c72f-efd8-2099-54c414c33151}</ProjectGuid>
+    <ProjectGuid>{87aecd7d-c277-5884-9c19-a9c33dbc033d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.RenderPipelines.Core.ShaderLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -36,190 +36,59 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD2x2.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPathDeform.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaRipple.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDeformable.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDisplaceRT.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaModLODManager.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\Burst\megaspline.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnim.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaWalkRope.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaZStretchWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaStretch.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaWave.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaTrainFollow.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaSpriteToMesh.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Selection\MegaVertColSelect.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPointCacheRef.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaBubble.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaSkew.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\BouyancyNew.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\ChangeBends.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarp.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\SpinObject.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaNoise.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphChan.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeSVG.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\FFDControlAxis.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaControllers\MegaControl.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\CameraShake.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeArc.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaGlobe.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaTaper.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\Burst\normals.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaWaveMesh.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaScroll.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaRadialSkew.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\ShipControl.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaMatrix.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaSqueezeWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaGlobeWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphTarget.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaRippleWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaStretchWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShape.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPointCacheFile.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaSoft2D.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\BallBounce.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaMeshRef.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeStar.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeCircle.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaCharacterFollow.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD3x3.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCurveSculpt.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaAttachWrap.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarpBind.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaScale.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaBakeMeshTest.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaBallBounce.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaSimpleMod.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaVertexAnim.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFDAnimate.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\Bouyancy.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaSpherifyWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPageFlip.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeSXL.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\Burst\animationcurve.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphRef.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\WalkRope.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeRectangle.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCylindrify.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaTreeBend.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorph.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaUtils.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaWalkBridge.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD3x3x3.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaDrawSpline.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaHitDeform.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDynamicRipple.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPointCache.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaTankWheels.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaRolled.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaBlendshapeWorkshop.cs" />
-     <Compile Include="Assets\Temp\CubeDistort.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPaint.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\PositionRockets.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaVertNoise.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPush.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCrumple.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaModifyObject.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaWrap.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\MegaGlobeLink.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCurveSculptLayered.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeLightMapWindow.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaWorldPathDeform.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaFFD4x4x4Warp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\Burst\vertexblend.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPointCacheInstance.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaWaveWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Selection\MegaVolSelect.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Selection\MegaSelection.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Selection\MegaMultiVolSelect.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaRopeDeform.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\MoveStretchSquash.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaBox3.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDisplaceLimits.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaHoseAttach.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaHumpWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaBendWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVTiles.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Selection\MegaMatSelect.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaAttractorShape.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\FFDController.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaSinusCurve.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaHump.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeAnimate.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDisplace.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\PathFollow.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaOBJExport.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\MegaRuntimeAttach.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPivotAdjust.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaPointCacheAnimator.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaBend.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD2x2x2.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaParamAttrib.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD4x4x4.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\TyreRipple.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaMeshPage.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeNGon.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeHelix.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaSprite.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaMorph\MegaMorphOMatic.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaFFDMap.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeOSM.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVAdjust.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaWrapRef.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaDisplaceWebCam.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeRBodyPathNew.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaHose.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaNoiseWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaCylindrifyWarp.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\WalkBridge.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaTwist.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\MegaGUI.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaMelt.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaXMLReader.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaWavingWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaMeshCombiner.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaBezPatch.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaVoxel.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeLine.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaBulge.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaBook.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaConformMulti.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnimator.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaSkewWarp.cs" />
-     <Compile Include="Assets\MegaFiers\MegaLiner Scene\Scripts\OrbitCamera.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCurveDeform.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaFFD4x4.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaTaperWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaFFDWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaTracks.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaNearestPoint.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaCollisionDeform.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaMeltWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaKML.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaRubber.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaWaving.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaConformMod.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaFFD3x3x3Warp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeEllipse.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaSqueeze.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaControllers\MegaBezVector3KeyControl.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaSpherify.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaSinusCurveWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphLink.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\MegaModifier.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaBubbleWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaAttach.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaFFD2x2x2Warp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Modifiers\Warps\MegaTwistWarp.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\MegaControllers\MegaBezFloatKeyControl.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaShape\MegaShapeRBodyPath.cs" />
-     <Compile Include="Assets\MegaFiers\Scripts\MegaFiers\Utils\MegaBlendShapeHolder.cs" />
-     <None Include="Assets\MegaFiers\ReadMe.txt" />
+     <Compile Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\DummyShaderLibrary.cs" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Validate.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Debug.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMappingInternal.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Random.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Refraction.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\UnityInstancing.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SDF2D.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\EntityLighting.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Color.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Macros.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Fibonacci.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonLighting.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMapping.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLES3.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonMaterial.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Filtering.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Metal.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Sampling.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Vulkan.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\PhysicalCamera.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Common.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\ACES.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\GraniteShaderLibBase.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SpaceFillingCurves.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Unity.RenderPipelines.Core.ShaderLibrary.asmdef" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\VolumeRendering.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Version.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\NormalSurfaceGradient.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\ParallaxMapping.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\SpaceTransforms.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLCore.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\BC6H.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\GLES2.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\MetaPass.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonShadow.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\Switch.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\TextureStack.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Texture.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\UnityDOTSInstancing.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\SampleUVMappingNormalInternal.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\PerPixelDisplacement.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\AreaLighting.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Sampling\Hammersley.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\CommonDeprecated.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\API\D3D11.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Packing.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Tessellation.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\BSDF.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\ImageBasedLighting.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\GeometricTools.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\VirtualTexturing.hlsl" />
+     <None Include="Packages\com.unity.render-pipelines.core\ShaderLibrary\Shadow\ShadowSamplingTent.hlsl" />
     <Reference Include="UnityEngine">
         <HintPath>G:\Program Files\Unity\2021.2.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -462,6 +331,12 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>G:\Program Files\Unity\2021.2.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>G:\Program Files\Unity\2021.2.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>G:\Program Files\Unity\2021.2.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
         <HintPath>G:\Users\RowanofRohan\Documents\Unity\Demos\SdfVfxSamples2\Library\PackageCache\com.unity.burst@1.7.0-pre.1\Unity.Burst.Unsafe.dll</HintPath>
@@ -852,157 +727,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
-      <Project>{69ec3db0-8281-a7b3-4487-d2491bdc67cc}</Project>
-      <Name>Unity.VisualEffectGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{cd87a407-19a3-cc37-49ec-ae154a9f8824}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{9cd43ea4-c949-f317-f1fe-4a8cd5e88a40}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
-      <Project>{d6584dbf-9174-f5c5-17b8-4ded45ed7015}</Project>
-      <Name>Unity.ProBuilder.AddOns.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.Editor.csproj">
-      <Project>{86c8b1c3-d113-441b-2087-f824d359e86d}</Project>
-      <Name>Autodesk.Fbx.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{e0bd2ba3-9984-6883-dde8-70eb18828f49}</Project>
-      <Name>Unity.VisualEffectGraph.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Editor.csproj">
-      <Project>{9b37922b-5bb4-0c91-505e-56d40cbfb9e6}</Project>
-      <Name>Unity.Formats.Fbx.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{34e735a8-3a51-a877-2e15-6ca59764d80d}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{6499597a-5482-66a7-73b7-c511dfeae30a}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{89f71fcf-ad42-14ac-14a5-7a1ccd9d489d}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Runtime.csproj">
-      <Project>{e8156abe-0718-56f2-598a-52d9c7a33b43}</Project>
-      <Name>Unity.RenderPipelines.HighDefinition.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{1ee0fa98-9995-39d2-d717-0aa7301c9f87}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{fe800839-30ad-0cd3-fbe8-3d88a228aceb}</Project>
-      <Name>Unity.ProBuilder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Editor.csproj">
-      <Project>{7a867ffd-117d-1d08-2c6e-61eb09b1349d}</Project>
-      <Name>Unity.RenderPipelines.HighDefinition.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{de8925cd-4e40-ee1c-70e4-98155074c4c6}</Project>
-      <Name>Unity.ProBuilder.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{ff2d03ff-e825-edc4-eb3f-8a74178dce8c}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{704084dd-f82e-cd88-9f84-3dfaaae59cb3}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{87aecd7d-c277-5884-9c19-a9c33dbc033d}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Jobs.Editor.csproj">
-      <Project>{08205574-7567-1d57-b16b-b44bdfac727a}</Project>
-      <Name>Unity.Jobs.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{66d4f6bc-efd7-e906-3d0c-2d4818aae564}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{388d3b1f-6dd2-514a-a401-58d0a177272a}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Autodesk.Fbx.csproj">
-      <Project>{0c6993a8-905b-bf72-6b35-99724722b8ce}</Project>
-      <Name>Autodesk.Fbx</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{5f90a954-43bc-ed7b-4423-9e6ad48ce237}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{95a666a6-821d-2c2d-20af-3df93aba10de}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{b125e18f-3067-8dbe-5cfb-c4a6f32b8b8d}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{363b752d-b019-842f-76b8-e074cd10154e}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{00cafb8f-b2ad-ff25-7d97-8aeada98afd0}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{ff7e0b88-ea99-7c17-100e-c1b872ffb3b2}</Project>
-      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Jobs.csproj">
-      <Project>{926b33f4-7995-f89b-3a00-ab9996086637}</Project>
-      <Name>Unity.Jobs</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Formats.Fbx.Runtime.csproj">
-      <Project>{dacc41c8-12e8-33be-82e6-2f558833d70d}</Project>
-      <Name>Unity.Formats.Fbx.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{46a6f0a6-4627-5f20-0c28-23b1cf218b0b}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Klak.Motion.Editor.csproj">
-      <Project>{6b0cc1d8-afd4-bd7c-6d94-983bd4e6de47}</Project>
-      <Name>Klak.Motion.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{d460873a-d481-c3b2-1fe4-bfc2a87eaec3}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj">
-      <Project>{b97daf42-6a49-e4c2-b79b-f59ca8331af4}</Project>
-      <Name>Unity.RenderPipelines.HighDefinition.Config.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{ef43ebc3-8472-1140-ab66-78fc848c2ebe}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="Klak.Motion.csproj">
-      <Project>{be3ade93-ae5b-d54f-3095-352faf43e27b}</Project>
-      <Name>Klak.Motion</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{46da8906-0010-2dc5-85dd-b10f8b7afdd2}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{303c3564-7b9d-c5d5-b8ea-9f72827972d0}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
